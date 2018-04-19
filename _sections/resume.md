@@ -6,15 +6,15 @@ order: 3
 
 
 <a href="https://getstat.com">
-    <img src="stat_logo_blue_trans_large.png" alt="STAT Search Analytics" style="width: 70%; max-width: 300px;"/>
+    <img src="stat_logo_transparent.png" alt="STAT Search Analytics" style="width: 70%; max-width: 300px;"/>
 </a>
 
 **Software Developer Intern**  
 _April 2017 – August 2017_
 
 
-<a href="http://neur.io">
-    <img src="neurio-logo-s.png" alt="Neurio Technology" style="width: 70%; max-width: 300px;"/>
+<a href="https://neur.io">
+    <img src="neurio_logo_transparent.gif" alt="Neurio Technology" style="width: 70%; max-width: 300px;"/>
 </a>
 
 **Software Developer Co-op**  
