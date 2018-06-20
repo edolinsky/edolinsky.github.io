@@ -5,6 +5,14 @@ order: 3
 ---
 
 
+<a href="https://saucelabs.com">
+    <img src="sauce_labs_logo_transparent.png" alt="Sauce Labs" style="width: 70%; max-width: 300px;"/>
+</a>
+
+**Software Engineer**  
+_May 2018 – Present_
+
+
 <a href="https://getstat.com">
     <img src="stat_logo_transparent.png" alt="STAT Search Analytics" style="width: 70%; max-width: 300px;"/>
 </a>
