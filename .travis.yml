@@ -1,3 +1,4 @@
+---
 matrix:
   include:
     - language: ruby
@@ -6,12 +7,21 @@ matrix:
       services:
         - docker
       script:
-        - docker run --rm -v ${PWD}:/data mivok/markdownlint -s mdl_style.rb ./*.md _posts
+        - >-
+          docker run --rm -v ${PWD}:/data
+          mivok/markdownlint -s mdl_style.rb ./*.md _posts
+    - language: python
+      services:
+        - docker
+      script:
+        - >-
+          docker run --rm -it -v ${PWD}:/workdir
+          giantswarm/yamllint -c yamllint_config.yaml .
     - language: ruby
       rvm:
         - 2.5.0
       before_script:
-        - chmod +x ./script/htmlproofer # or do this locally and commit
+        - chmod +x ./script/htmlproofer
       # Assume bundler is being used, therefore
       # the `install` step will run `bundle install` by default.
       script: ./script/htmlproofer
@@ -22,6 +32,6 @@ matrix:
           - /.*/
       env:
         global:
-          - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+          # speeds up installation of html-proofer
+          - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
       sudo: false
-
