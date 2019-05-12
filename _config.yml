@@ -12,7 +12,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: erikdolinsky
 github_username:  edolinsky
 linkedin_public_url: erikdolinsky
-profile_picture: "https://s.gravatar.com/avatar/4e919426167ae289d13ecb8430b07225"
+profile_picture: "/assets/img/profile_picture.jpg"
 
 # Build settings
 markdown: kramdown
