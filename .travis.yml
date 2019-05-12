@@ -1,6 +1,9 @@
 matrix:
   include:
-    -
+    - services:
+        - docker
+      script:
+        - docker run --rm -v ${PWD}:/data mivok/markdownlint .
     - language: ruby
       rvm:
         - 2.5.0
