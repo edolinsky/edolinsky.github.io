@@ -6,7 +6,7 @@ matrix:
       services:
         - docker
       script:
-        - docker run --rm -v ${PWD}:/data mivok/markdownlint ./*.md _posts
+        - docker run --rm -v ${PWD}:/data mivok/markdownlint -s mdl_style.rb ./*.md _posts
     - language: ruby
       rvm:
         - 2.5.0
