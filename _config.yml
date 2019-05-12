@@ -4,18 +4,35 @@ email: erik@dolins.ky
 username: Erik Dolinsky
 job_title: Software Engineer
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  Erik Dolinsky's landing page. Software Engineering and DevOps blog.
+baseurl: ""
+url: ""
+fqdn: www.dolins.ky
 twitter_username: erikdolinsky
 github_username:  edolinsky
 linkedin_public_url: erikdolinsky
-profile_picture: "/assets/img/profile_picture.jpg"
+profile_picture: /assets/img/profile_picture.jpg
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+links:
+  section_1:
+    - title: home
+      url: /
+      key_trigger: h
+    - title: my posts
+      url: /posts
+      key_trigger: p
+    - title: search
+      url: /series
+      key_trigger: s
+    - title: tags
+      url: /tags
+      key_trigger: t
+    - title: about me
+      url: /about
+      key_trigger: a

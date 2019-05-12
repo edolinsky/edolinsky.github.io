@@ -1,18 +1,32 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a scrappy, creative character with an insatiable craving to master new 
+technologies and tackle intimidating challenges.
+I have proven experience designing and implementing software systems, and
+owning them end-to-end in true DevOps fashion.
+I'm a builder of things, lover of good beer and great company.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I live in Surrey, BC with my partner Kait and our cat Duchess.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I make *a lot* of bad jokes. 
 
+These are some of the companies I've worked for:
 
-[jekyll-organization]: https://github.com/jekyll
+<a href="https://saucelabs.com">
+  <img src="/assets/img/logos/sauce_labs_logo_transparent.png" style="width: 70%; max-width: 300px;">
+</a>
+<a href="https://getstat.com">
+<img src="/assets/img/logos/stat_logo_transparent.png" style="width: 70%; max-width: 300px;">
+</a>
+<a href="https://neur.io">
+<img src="/assets/img/logos/neurio_logo_transparent.gif" style="width: 70%; max-width: 300px;">
+</a>
+<a href="https://rainforestautomation.com">
+<img src="/assets/img/logos/rainforest_logo_transparent.png" style="width: 70%; max-width: 300px;">
+</a>
+
+My resume can be found [here](/assets/pdf/Resume-Dolinsky.pdf).

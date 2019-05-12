@@ -1,21 +1,21 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
 <html lang="pt-br">
-  	{% include head.html %}
+    {% include head.html %}
     <body>
-    	{% include svg-icons.html %}
-		<header class="page-header">
-			<h1 class="post-title">{{ page.title }}</h1>
-			{% include menu-search.html %}
-		</header>
-        <main>
-		    {{ content }}
-		</main>
-        {% include footer.html %}
-        {% include scripts.html %}
-		
+        {% include svg-icons.html %}
+        {% include header-post.html %}
+        {% include tree-posts.html %}
+        <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
+            <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+
+            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                {{ content }}
+            </article>
+
+            {% include share.html %}
+            {% include comments.html %}
+            {% include footer.html %}
+            {% include scripts.html %}
+        </section>
     </body>
 </html>
