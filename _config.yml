@@ -25,7 +25,7 @@ links:
       url: /
       key_trigger: h
     - title: posts
-      url: /series
+      url: /posts
       key_trigger: p
     - title: tags
       url: /tags
@@ -40,4 +40,3 @@ links:
       key_trigger: esc
     - title: search
       key_trigger: s
-
