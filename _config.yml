@@ -34,8 +34,10 @@ links:
       url: /about
       key_trigger: a
   section_2:
-    - title: menu
+    - title: open menu
       key_trigger: space
+    - title: close menu
+      key_trigger: esc
     - title: search
       key_trigger: s
 
