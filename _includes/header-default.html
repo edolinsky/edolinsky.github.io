@@ -27,6 +27,7 @@
             </a>
         </div>
 
+        {% if site.posts.size > 0 %}
         <ul class="recent">
             <p>Recent posts:</p>
              {% for post in site.posts limit:3%}
@@ -37,7 +38,9 @@
                 </li>
               {% endfor %}
         </ul>
+        {% endif %}
 
+        {% if site.projects.size > 0 %}
         <ul class="recent">
             <p>Recent projects:</p>
              {% for project in site.projects limit:3%}
@@ -48,6 +51,7 @@
                 </li>
               {% endfor %}
         </ul>
+        {% endif %}
 
     </div>
     {% include menu-search.html %}
