@@ -33,6 +33,9 @@ links:
     - title: about me
       url: /about
       key_trigger: a
+    - title: resume
+      url: /resume
+      key_trigger: r
   section_2:
     - title: open menu
       key_trigger: space
