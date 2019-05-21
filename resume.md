@@ -7,7 +7,7 @@ permalink: /resume/
 Software Engineer
 
 <div id="webaddress">
-<a href="erik@dolins.ky">erik@dolins.ky</a>
+<a href="mailto:erik@dolins.ky">erik@dolins.ky</a>
 <a href="tel:6044460778">604-446-0778</a>
 </div>
 
