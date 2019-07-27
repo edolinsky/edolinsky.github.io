@@ -30,9 +30,8 @@ __Software Engineer__, Sauce Labs
 • Redesigned Sauce's statsd/graphite monitoring stack to handle load in
   excess of 3.5 million metrics per minute and cut query latency by 80%
 
-• I'm currently working on a Prometheus-based monitoring platform that will
-  scale up to scale up to hundreds of thousands of individual endpoints, and
-  support many of the teams at Sauce
+• Revitalized Sauce Cloud monitoring through the introduction of a highly scalable 
+  Prometheus-based monitoring platform using prometheus-operator and Thanos.
 
 `Apr. 2017 - Aug. 2017`
 __Software Developer Intern__, STAT Search Analytics
@@ -70,12 +69,12 @@ __Technical Support & Test Engineer__, Rainforest Automation Inc.
 
 • __Languages:__ Python, Go, Ruby, Java, C++, C, Javascript, and Bash
 
-• __Platforms:__ Kubernetes, VMs and bare metal, in both public and private
+• __Platforms:__ Kubernetes, VMs and bare metal, public and private
   cloud
 
-• __Configuration Management:__ Ansible, Terraform, and a bit of Chef
+• __Configuration Management:__ Ansible, Terraform
 
-• __Continuous Integration:__ GitLab, Travis CI, and Jenkins
+• __Continuous Integration:__ GitLab, Travis CI
 
 ## Education
 
