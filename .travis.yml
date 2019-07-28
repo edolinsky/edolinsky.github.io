@@ -16,7 +16,7 @@ matrix:
       script:
         - >-
           docker run --rm -it -v ${PWD}:/workdir
-          giantswarm/yamllint -c yamllint_config.yaml .
+          giantswarm/yamllint -c .
     - language: ruby
       rvm:
         - 2.5.0
