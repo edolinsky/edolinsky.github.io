@@ -1,4 +1,6 @@
-.post
+.resume
+    +above(rem(1450px))
+        margin-left: 347px
     h1, h2, h3
         &:before
             color main
@@ -7,6 +9,7 @@
     h1
         text-align center
         background lightGray
+        margin 0
         font-size rem(30px)
         +above(cut)
             font-size rem(40px)
@@ -21,7 +24,7 @@
         mainFont(300)
     .music-read
         text-align center
-.post-content
+.resume-content
     background lightGray
     padding rem(16px) 0
     img
@@ -104,16 +107,16 @@
     center(800px)
     text-align center
     border-top 1px solid lightGray
-    color darken(main,10%)
+    color sec
     padding-top rem(20px)
     svg
         margin rem(15px)
         size(35,35)
     a
         text-decoration none
-        fill darken(main,10%)
+        fill sec
         &:hover svg
-            fill main
+            fill mainLight
 
 
 table
@@ -123,32 +126,4 @@ table
     th, td
         border rem(2px) solid #ccc
         padding rem(5px)
-
-.tag-title
-    mainFont(300)
-    font-size rem(36px)
-    margin-top rem(60px)
-    center(rem(800px))
-    +below(cut)
-        font-size rem(28px)
-        margin-top rem(20px)
-        padding 0 rem(20px)
-
-.post-list
-    list-style none
-    margin rem(25px) auto
-    +below(cut)
-        padding 0 rem(20px)
-    a
-        display block
-        border-bottom 1px solid darken(lightGray,10%)
-        padding rem(10px) 0
-        text-decoration none
-        transition all .5s
-        &:hover
-            color hover
-            border-bottom 1px solid hover
-    .entry-date
-        float right
-        +below(cut)
-            display none
+      
