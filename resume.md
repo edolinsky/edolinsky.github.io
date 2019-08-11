@@ -6,29 +6,28 @@ permalink: /resume/
 # Erik Dolinsky
 Software Engineer
 
-<div id="webaddress">
-<a href="mailto:erik@dolins.ky">erik@dolins.ky</a>
-<a href="tel:6044460778">604-446-0778</a>
-</div>
+`erik@dolins.ky
+604-446-0778`
 
 ## Qualifications
 
-* Insatiable craving to master new technologies and tackle intimidating
-  challenges.
-* Proven experience designing and implementing software systems and
-  owning them end-to-end in true DevOps fashion.
+Proven experience designing and implementing software systems, and owning them 
+end-to-end in true DevOps fashion. Insatiable craving to master new technologies
+and tackle intimidating challenges. Track record of enhancing observability and
+eliminating technical debt.
 
 ## Experience
 
 `May 2018 - Present`
 __Software Engineer__, Sauce Labs
 
-* Implemented numerous features for Sauce Labs' cloud infrastructure platform
-  and tunnel proxy product
+* Revitalized Sauce cloud monitoring through the introduction of a highly
+  scalable monitoring and alerting platform and consistent encouragement of
+  best practices
 * Redesigned Sauce's statsd/graphite monitoring stack to handle load in
   excess of 3.5 million metrics per minute and cut query latency by 80%
-* Revitalized Sauce Cloud monitoring through the introduction of a highly scalable
-  Prometheus-based monitoring platform using prometheus-operator and Thanos.
+* Implemented numerous features for Sauce Labs' cloud infrastructure platform
+  and tunnel proxy product
 
 `Apr. 2017 - Aug. 2017`
 __Software Developer Intern__, STAT Search Analytics
@@ -44,10 +43,11 @@ __Software Developer Intern__, STAT Search Analytics
 __Software Developer Co-op__, Neurio Technology Inc.
 
 * Designed and implemented a model assessment system for Neurio’s nonintrusive
-  load monitoring (load disaggregation) analytics software, which was run over
-  10,000 times within its first 6 months
+  load monitoring analytics software, which was run over 10,000 times within
+  its first 6 months
 * Iterated on load testing frameworks, improving memory utilization by 90%
-  and extended it into a demo tool, boosting sales lead retention by 20%
+  and extended the project into a demo tool, boosting sales lead retention by
+  20%
 
 `May 2015 - Dec. 2015`
 __Technical Support & Test Engineer__, Rainforest Automation Inc.

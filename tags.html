@@ -2,25 +2,12 @@
 layout: minimal
 title: "#Tags"
 permalink: /tags/index.html
-description: "Take a look at my beautiful tags."
+description: "Blog posts sorted by tags."
 ---
 
 <h1>Tags</h1>
-<div class="tags">
-{% assign tags_list = site.tags %}
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %}
-        <a data-scroll>{{ tag }}</a>
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %}
-        <a data-scroll>{{ tag[0] }}</a>
-    {% endfor %}
-  {% endif %}
-{% assign tags_list = nil %}
-</div>
 
-{% for tag in site.tags  %}
+{% for tag in site.tags reversed %}
     <span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] }}</span>
     <ul class="post-list">
         {% assign pages_list = tag[1] %}

@@ -30,9 +30,6 @@ links:
     - title: tags
       url: /tags
       key_trigger: t
-    - title: about me
-      url: /about
-      key_trigger: a
     - title: resume
       url: /resume
       key_trigger: r

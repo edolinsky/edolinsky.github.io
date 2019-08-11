@@ -33,20 +33,20 @@ column(ratios = 1, offset = 0, cycle = 0, uncycle = 0, gutter = jeet.gutter)
 
   if uncycle != 0
     &:nth-child({uncycle}n)
-      margin-{opposite-side}: (margin-r)%
+      margin-{opposite-side}: (margin-r) %
       float: side
     &:nth-child({uncycle}n+1)
       clear: none
 
   if cycle != 0
     &:nth-child({cycle}n)
-      margin-{opposite-side}: (margin-last)%
+      margin-{opposite-side}: (margin-last) %
       float: opposite-side
     &:nth-child({cycle}n+1)
       clear: both
-   else
+  else
     &:last-child
-      margin-{opposite-side}: (margin-last)%
+      margin-{opposite-side}: (margin-last) %
 
 /**
  * An alias for the column mixin.
@@ -116,9 +116,9 @@ span(ratio = 1, offset = 0, cycle = 0, uncycle = 0)
   float: side
   clear: none
   text-align: inherit
-  width: (span-width)%
-  margin-{side}: (margin-l)%
-  margin-{opposite-side}: (margin-r)%
+  width: (span-width) %
+  margin-{side}: (margin-l) %
+  margin-{opposite-side}: (margin-r) %
 
   if cycle != 0
     &:nth-child({cycle}n)
@@ -152,7 +152,7 @@ shift(ratios = 0, col-or-span = column, gutter = jeet.gutter)
     translate = jeet-get-span(ratios)
 
   position: relative
-  left: (translate)%
+  left: (translate) %
 
 /**
  * Reset an element that has had shift() applied to it.
@@ -283,11 +283,15 @@ align(direction = both)
  * Apply a clearfix to an element.
  */
 cf()
-  *zoom: 1
 
-  &:before, &:after
-    content: ''
-    display: table
+*
+zoom
+:
+1
 
-  &:after
-    clear: both
+&:before, &:after
+  content: ''
+  display: table
+
+&:after
+  clear: both

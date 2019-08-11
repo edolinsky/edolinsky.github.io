@@ -1,134 +1,139 @@
 .resume
-    html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed,
-    figure, figcaption, footer, header, hgroup,
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video
-    	margin 0
-    	padding 0
-    	border 0
-    	font-size 100%
-    	vertical-align baseline
-    /* HTML5 display-role reset for older browsers */
-    article, aside, details, figcaption, figure,
-    footer, header, hgroup, menu, nav, section
-    	display block
-    ol, ul
-    	list-style none
-    blockquote, q
-    	quotes none
-    blockquote:before, blockquote:after,
-    q:before, q:after
-    	content none
-    table
-    	border-collapse collapse
-    	border-spacing 0
-    /* end of reset */
+  padding-top 2em
+  @media print
+    padding-top 0
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video
+    margin 0
+    padding 0
+    border 0
+    font-size 100%
+    line-height 1.5
+    @media print
+      font-size 90%
+    vertical-align baseline
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section
+    display block
+  ol, ul
+    list-style none
+  blockquote, q
+    quotes none
+  blockquote:before, blockquote:after,
+  q:before, q:after
+    content none
+  table
+    border-collapse collapse
+    border-spacing 0
+  /* end of reset */
+  p
+    position relative
+    left 20%
+    margin-right 0
+    width 60%
 
-    body
-    	font-size 100%
-    	line-height 1.5em
-    	margin-top 1em
-    	margin-left 1em
+  code
+    font-size 90%
+    mainFont(300)
+    color: texts
+    @media print
+      font-size 80%
 
-    p
-    	position relative
-    	left 25%
-    	margin-bottom 0.7em
-    	margin-right 0
-    	width 55%
+  p code
+    position absolute
+    text-align right
+    mainFont(300)
+    color: texts
+    right -20%
 
-    code
-    	font-size 90%
+  ul
+    position relative
+    left 20%
+    width 60%
+    margin-bottom 0.5em
 
-    p code
-    	position absolute
-    	text-align right
-    	right -20%
+  li:before
+    content "-"
+    position relative
+    left -0.25em
 
-    ul
-    	position relative
-    	left 25%
-    	width 75%
-    	margin-bottom 1.5em
-    	margin-top -0.5em
+  li
+    /*second line indent*/
+    padding-left 0.3em
+    text-indent -0.3em
 
-    /*uncomment to get dashes in the list*/
-    li:before
-    	content "-"
-    	position relative
-    	left -0.25em
+  li ul
+    position relative
+    left 0
+    width 100%
+    margin-top 0.25em
 
-    li
-    	/*second line indent*/
-    	padding-left 1.25em
-    	text-indent -1.25em
+  h1, h2, h3, h4
+    font-weight 400
+    width 80%
 
-    li ul
-    	position relative
-    	left 0
-    	width 100%
-    	margin-top 0.25em
+  h1
+    text-align left
+    font-size 3em
+    line-height 1em
+    position relative
+    left 20%
 
-    h1,h2,h3,h4
-    	font-weight 400
-    	width 80%
+  h1 + p
+    /*subtitle*/
+    font-size: 110%
+    @media print
+      font-size 100%
 
-    h1
-    	text-align left
-    	font-size 3em
-    	line-height 1em
-    	position relative
-    	left 25%
+  h2
+    font-size 1.1em
+    margin-top 0.25em
+    position relative
+    top 1.4em
+    text-align right
+    width 15%
 
-    h1+p
-    	/*subtitle*/
-    	font-size: 110%
+  h3
+    font-size 1em
+    line-height 2em
+    position relative
+    top 1.7em
+    text-align right
+    width 20%
 
-    h2
-    	font-size 1.1em
-    	margin-top 3em
-    	position relative
-    	top 1.4em
-    	text-align right
-    	width 20%
+  em
+    font-style italic
 
-    h3
-    	font-size 1em
-    	line-height 2em
-    	position relative
-    	top 1.7em
-    	text-align right
-    	width 20%
+  strong
+    font-weight bold
 
+  .post-content
+    @media only screen and (max-width: 760px)
+      display none
+
+  .resume-pdf
+    text-align center
+    padding-top 1em
+    padding-bottom 2em
+    @media print
+      display none
     a
-    	color inherit
-
-    a:hover
-        color main
-
-    #webaddress
-    	margin-top 1em
-        margin-left 75%
-    	position relative
-    	font-size 100%
-
-    #webaddress a
-    	text-decoration none
-
-    em
-    	font-style italic
-
-    strong
-    	font-weight bold
-
-    #address
-    	display none
+      mainFont(300)
+      font-size 150%
+      color main
+      text-decoration none
+      border-bottom 2px solid main
+      &:hover
+        background-color mainHover
