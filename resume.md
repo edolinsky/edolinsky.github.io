@@ -4,10 +4,11 @@ title: Erik Dolinsky's Resume
 permalink: /resume/
 ---
 # Erik Dolinsky
-Software Engineer
 
 `erik@dolins.ky
 604-446-0778`
+
+Software Engineer
 
 ## Qualifications
 
